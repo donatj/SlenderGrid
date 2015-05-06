@@ -1,0 +1,56 @@
+main, .list-container {
+  display: block;
+  clear: both; }
+  main > *, .list-container > * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+.content {
+  background: pink;
+  border: 4px solid #aaa;
+  float: left;
+  display: inline-block;
+  width: 75%; }
+  @media screen and (max-width: 500px) {
+    .content {
+      float: left;
+      display: inline-block;
+      width: 100%; } }
+
+.sidebar {
+  background: cyan;
+  padding: 4px;
+  float: left;
+  display: inline-block;
+  width: 25%; }
+  @media screen and (max-width: 500px) {
+    .sidebar {
+      float: left;
+      display: inline-block;
+      width: 100%; } }
+
+.list-item {
+  background: #eee;
+  border: 1px solid #bbb;
+  padding: 10px;
+  float: left;
+  display: inline-block;
+  width: 8.33333%; }
+  @media screen and (max-width: 1000px) {
+    .list-item {
+      float: left;
+      display: inline-block;
+      width: 16.66667%; } }
+  @media screen and (max-width: 700px) {
+    .list-item {
+      float: left;
+      display: inline-block;
+      width: 25%; } }
+  @media screen and (max-width: 500px) {
+    .list-item {
+      float: left;
+      display: inline-block;
+      width: 33.33333%; } }
+
+/*# sourceMappingURL=screen.css.map */
