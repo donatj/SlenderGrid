@@ -14,13 +14,15 @@ It contains **none** of the usual inelegant and non-semantic `grid_7` / `contain
 
 ### Concept
 
-SlenderGrid has two essential entities - boxes and box-containers. In other Grid CSS Framework's these would be pre-defined for you in a non-semantic manner, but in SlenderGrid we define these ourselves using semantic class naming.
+SlenderGrid has two essential entities - boxes and box-containers. In many Framework's these would be pre-defined in a non-semantic manner. In SlenderGrid we use mixins define these ourselves.
 
-Boxes are the main building block. They need you to define their width, which is stated as a fraction using the `box-size` Sass mixin. 
+*Boxes* are the main building block. You simply define their width as a fraction using the `box-size` Sass mixin, and the math is done for you. 
 
 For example, a box taking up two thirds width is declared `@include box-size(2/3);`.
 
-A box-container exists to contain one or more boxes. Box containers are defined using the `box-container` Sass mixin. 
+A *box-container* contains one or more boxes and ensure that they layout correctly. Box-containers are defined using the `box-container` Sass mixin. 
+
+Box-containers are simple and contain no options. They are declared via: `@include box-container;`
 
 ## Example
 
@@ -76,3 +78,5 @@ main {
 	}
 }
 ```
+
+For a more complete example including multiple responsive steps [click here](https://cdn.rawgit.com/donatj/SlenderGrid/master/example/example.html).
