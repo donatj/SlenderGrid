@@ -1,0 +1,16 @@
+@mixin box-size($size) {
+	float: left;
+	display: inline-block;
+	width: percentage($size);
+}
+
+@mixin box-container {
+	display: block;
+	clear: both;
+
+	& > * {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
