@@ -4,7 +4,7 @@ SlenderGrid is **not another CSS Grid Framework**.  Instead, it is a bite-size t
 
 SlenderGrid takes advantage of modern CSS3. Utilizing `box-sizing: border-box` and percentage widths to make using Grids amazingly simple and clean.
 
-[Click here for a demo](https://cdn.rawgit.com/donatj/SlenderGrid/master/example/example.html) of SlenderGrid in action.
+[Click here for a demo](https://raw.githack.com/donatj/SlenderGrid/master/example/example.html) of SlenderGrid in action.
 
 ## What is SlenderGrid
 
@@ -79,4 +79,4 @@ main {
 }
 ```
 
-For a more complete example including multiple responsive steps [click here](https://cdn.rawgit.com/donatj/SlenderGrid/master/example/example.html).
+For a more complete example including multiple responsive steps [click here](https://raw.githack.com/donatj/SlenderGrid/master/example/example.html).
